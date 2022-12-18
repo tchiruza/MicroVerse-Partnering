@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-    
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Product Landing Page</title>
   </head>
+
+  <header>
+    <header id="header">
+      <h1>Horse</h1>
+      <img
+        src="https://imgbin.com/png/vZb8czJf/tom-cat-amazon-com-tom-and-jerry-spotlight-collection-dvd-png"
+        alt="horse"
+        id="header-img"
+      />
+
+      <nav id="nav-bar">
+        <a href="#about" class="nav-link">about</a>
+        <a href="#contact" class="nav-link">contact us</a>
+        <a href="#login" class="nav-link">login</a>
+      </nav>
+    </header>
+  </header>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <section id="about">
+      <iframe src="TODO: add a video link" frameborder="0" id="video"></iframe>
+    </section>
+    <section id="contact"></section>
+    <section id="login"></section>
 
     <!--
 
@@ -22,6 +44,18 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
+  <footer>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="enter your email address"
+        required
+      />
+      <input type="submit" id="submit" value="send email" class="submit" />
+    </form>
+  </footer>
 </html>
