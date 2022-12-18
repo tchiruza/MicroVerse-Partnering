@@ -1,6 +1,6 @@
 *{
   margin: 0;
-  padding: 0;
+ padding: 0%;
   text-decoration: none;
   text-underline-offset: none;
   text-underline-position: none;
@@ -37,4 +37,10 @@ header {
 #nav-bar a:hover {
   color: black;
   transition:all 0.5s ease;
+}
+#side{ 
+text-align:100px;
+text-justify: 100px;
+padding:90px;
+  
 }
